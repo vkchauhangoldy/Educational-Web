@@ -201,7 +201,7 @@ footer ul li a {
 
 /* Responsive Styles */
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .container {
     padding: 20px;
   }
@@ -219,7 +219,7 @@ footer ul li a {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .hero-content h1 {
     font-size: 28px;
   }
