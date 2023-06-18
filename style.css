@@ -201,7 +201,7 @@ footer ul li a {
 
 /* Responsive Styles */
 
-@media (max-width: 800px) {
+@media all and(max-width: 800px) {
   .container {
     padding: 20px;
   }
@@ -219,7 +219,7 @@ footer ul li a {
   }
 }
 
-@media (max-width: 600px) {
+@media all and(max-width: 500px) {
   .hero-content h1 {
     font-size: 28px;
   }
@@ -231,6 +231,7 @@ footer ul li a {
   .services {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-gap: 20px;
+    flex-wrap: wrap;
   }
 
   form {
